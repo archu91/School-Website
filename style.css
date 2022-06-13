@@ -1,4 +1,7 @@
 @media (min-width: 500px) {
+    html {
+        transform: scale(0.75);
+    }
     body {
         font-size: 25px;
     }
