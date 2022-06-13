@@ -252,8 +252,8 @@ li {
 }
 
 .image-container {
-    width: 600%;
-    height: 50%;
+    width: 800%;
+    height: 80vh;
     margin: 0 0 0 0;
     position: relative;
     text-align: center;
@@ -270,15 +270,15 @@ li {
     float: left;
     margin: 0;
     padding: 0;
-    width: 70vw;
+    width: 90vw;
     height: 80vh;
 }
 
 @keyframes slide-animation {
-    0% {left: 0;}
-    10% {left: -1200px;}
-    20% {left: -2400px;}
-    30% {left: -3600px;}
+    0% {left: 0}
+    10% {left: -1200px}
+    20% {left: -2400px}
+    30% {left: -3600px}
     40% {left: -4800px;}
     50% {left: -6000px;}
     60% {left: -4800px;}
