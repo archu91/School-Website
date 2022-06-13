@@ -27,6 +27,7 @@ header {
 
 #heading {
     display: flex;
+    flex-wrap: wrap-reverse;
     background-color: rgb(39, 36, 36);
     position: sticky;
     top: 0;
@@ -38,7 +39,7 @@ header {
 }
 
 #name {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
     color: purple;
     padding-left: 1%;
@@ -48,14 +49,16 @@ header {
 
 #navigate {
     float: right;
-    text-align: right;
+    text-align: center;
     font-size: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #navigate a, #navigate a:visited {
     padding: 10px;   
-    margin: 30px;
+    margin: 5px;
+    white-space: nowrap;
     border-radius: 10px;
     color: black;
     -webkit-text-stroke: 0.2px red;
@@ -69,17 +72,8 @@ header {
     color: white;
 }
 
-header #title{
+.logo {
     text-align: center;
-    margin-top: 17%;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 70px;
-    color: firebrick;
-    -webkit-text-stroke: 0.5px black;
-    font-family: "Lucida Handwriting";
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
 }
 
 main,footer {
@@ -87,20 +81,20 @@ main,footer {
 }
 
 .description:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .content {
-    float: left;
-    width: 70%;
-  }
-  
-  .display {
-    float: right;
-    width: 30%;
-  }
+content: "";
+display: table;
+clear: both;
+}
+
+.content {
+float: left;
+width: 70%;
+}
+
+.display {
+float: right;
+width: 30%;
+}
 
 .display img {
     display: block;
@@ -293,4 +287,3 @@ li {
     90% {left: -1200px;}
     100% {left: 0;}
 }
-
